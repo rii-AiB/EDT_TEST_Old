@@ -111,6 +111,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Реквизит3</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>Реквизит3ПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>Реквизит3РасширеннаяПодсказка</name>
       <id>15</id>
