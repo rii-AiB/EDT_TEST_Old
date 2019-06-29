@@ -61,6 +61,47 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="7e465770-e95a-4fe9-ab99-7947dccf8b8b">
+    <name>Реквизит2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит2</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="078d559c-cb48-4eca-b86b-db066356d113">
+    <producedTypes>
+      <objectType typeId="2341f815-b8a8-49b6-ad5e-66466c81de59" valueTypeId="75487ad6-a148-4aab-a54f-21dca9dacd95"/>
+      <rowType typeId="b0628dd9-c4bb-4c30-85cf-093909238d7e" valueTypeId="ef9b2983-b09b-4074-8f78-7d3cf3a05860"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+    <attributes uuid="7e7cc20d-37bb-4ea3-8cb4-436cb220819f">
+      <name>Реквизит</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="b7f36f38-1f3d-47e3-b494-4db830ec82fc">
     <name>ФормаЭлемента</name>
     <synonym>
