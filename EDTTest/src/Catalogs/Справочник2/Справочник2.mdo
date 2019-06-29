@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fe3b162-41db-47ed-9e53-af69b432d002">
+  <producedTypes>
+    <objectType typeId="66b2aec1-c47e-49cb-9c72-f7c411b14b3d" valueTypeId="45d9cbc7-4827-43c6-8056-7149f630c4de"/>
+    <refType typeId="fb518e38-948a-436b-84ff-44fee507d94f" valueTypeId="11d6725f-85fd-4060-805e-42707b680d92"/>
+    <selectionType typeId="45651f3f-ab22-4913-a5bf-da27655ec4d6" valueTypeId="2554134d-c26d-4c4a-a4fc-e8bba1bd76a2"/>
+    <listType typeId="84379e98-6eaa-4243-a38b-3fe6d87dfe73" valueTypeId="70112915-f958-4683-b312-ae7003e79734"/>
+    <managerType typeId="2206c024-4c24-4a1e-9b9c-4dab85e45a21" valueTypeId="de426e55-5c5c-463f-b82b-d5c29ba6fe7e"/>
+  </producedTypes>
+  <name>Справочник2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник2</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Справочник2.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Справочник2.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Справочник2.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="49f38482-0469-47c6-84fa-8246cf55e63b">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bf8bece8-04a2-4c6a-bec6-97fba4275060">
+    <name>Реквизит1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b7f36f38-1f3d-47e3-b494-4db830ec82fc">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -30,4 +30,5 @@
     <languageCode>ru</languageCode>
   </languages>
   <catalogs>Catalog.СправочникТест1</catalogs>
+  <catalogs>Catalog.Справочник2</catalogs>
 </mdclass:Configuration>
